@@ -1,6 +1,0 @@
-framework module XMKit {
-  umbrella header "XMKit-umbrella.h"
-
-  export *
-  module * { export * }
-}
