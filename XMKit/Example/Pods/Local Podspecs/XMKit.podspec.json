@@ -18,5 +18,5 @@
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "XMKit/Classes/**/*"
+  "source_files": "XMKit/Classes/**/*.swift"
 }
