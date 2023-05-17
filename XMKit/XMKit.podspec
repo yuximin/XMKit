@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XMKit'
-  s.version          = '0.1.1'
-  s.summary          = 'A short description of XMKit.'
+  s.version          = '0.1.2'
+  s.summary          = '工具库'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+iOS开发常用工具类
                        DESC
 
   s.homepage         = 'https://github.com/yuximin/XMKit'
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'XMKit/Classes/**/*.swift'
+  s.source_files = 'XMKit/**/*'
   
   # s.resource_bundles = {
   #   'XMKit' => ['XMKit/Assets/*.png']

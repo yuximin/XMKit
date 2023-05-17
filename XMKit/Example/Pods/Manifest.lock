@@ -1,5 +1,5 @@
 PODS:
-  - XMKit (0.1.0)
+  - XMKit (0.1.2)
 
 DEPENDENCIES:
   - XMKit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  XMKit: f73c9a49a2321d632b2afcffc4f5d54571c36afb
+  XMKit: a3b373e0073e1acf0c45768259a0d72e1d7f3214
 
 PODFILE CHECKSUM: 0b7e13960d0e1e4df67ac5f5838bd8502de846ec
 

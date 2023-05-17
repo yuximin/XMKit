@@ -1,8 +1,8 @@
 {
   "name": "XMKit",
-  "version": "0.1.0",
-  "summary": "A short description of XMKit.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.1.2",
+  "summary": "工具库",
+  "description": "iOS开发常用工具类",
   "homepage": "https://github.com/yuximin/XMKit",
   "license": {
     "type": "MIT",
@@ -13,10 +13,10 @@
   },
   "source": {
     "git": "https://github.com/yuximin/XMKit.git",
-    "tag": "0.1.0"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "XMKit/Classes/**/*.swift"
+  "source_files": "XMKit/**/*"
 }
