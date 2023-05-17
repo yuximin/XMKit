@@ -1,0 +1,22 @@
+{
+  "name": "XMKit",
+  "version": "0.1.0",
+  "summary": "A short description of XMKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/yuximin/XMKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yuximin": "whaledestine@163.com"
+  },
+  "source": {
+    "git": "https://github.com/yuximin/XMKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "XMKit/Classes/**/*"
+}
