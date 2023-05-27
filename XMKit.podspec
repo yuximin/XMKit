@@ -28,7 +28,7 @@ iOS开发常用工具类
   s.source           = { :git => 'https://github.com/yuximin/XMKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '11.0'
 
   s.source_files = 'Sources/**/*'
   
