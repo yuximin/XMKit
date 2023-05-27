@@ -32,6 +32,8 @@ iOS开发常用工具类
 
   s.source_files = 'Sources/**/*'
   
+  s.swift_versions = "5.0"
+  
   # s.resource_bundles = {
   #   'XMKit' => ['XMKit/Assets/*.png']
   # }
