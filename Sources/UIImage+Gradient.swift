@@ -29,7 +29,7 @@ extension UIImage {
         context.fill(CGRect(origin: .zero, size: size))
         
         guard let colorImage = UIGraphicsGetImageFromCurrentImageContext(),
-              let pngData = UIImagePNGRepresentation(colorImage) else { return nil }
+              let pngData = colorImage.pngData() else { return nil }
         UIGraphicsEndImageContext()
         return UIImage(data: pngData, scale: UIScreen.main.scale)
     }
