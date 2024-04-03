@@ -9,6 +9,7 @@ import Foundation
 import UIKit
 
 extension UIImage {
+    
     public enum GradientDirection {
         /// 水平
         case horizontal
