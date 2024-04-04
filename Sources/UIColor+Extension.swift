@@ -12,8 +12,8 @@ public extension UIColor {
     /// 十六进制字符串转 `UIColor`
     convenience init(hexString: String, alpha: CGFloat = 1) {
         let valueString = hexString.lowercased()
-            .trimmingCharacters(in: CharacterSet(charactersIn: "0x"))
-            .trimmingCharacters(in: CharacterSet(charactersIn: "#"))
+            .replacingOccurrences(of: "0x", with: "")
+            .replacingOccurrences(of: "#", with: "")
         
         guard let hexValue = Int(valueString, radix: 16) else {
             self.init(red: 0, green: 0, blue: 0, alpha: 1)
